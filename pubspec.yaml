@@ -52,7 +52,7 @@ dependencies:
   url_launcher: ^6.2.2
   url_launcher_android: ^6.2.0
   flutter_launcher_icons: ^0.13.1
-  flutter_splash_screen: ^2.0.1+1
+#  flutter_splash_screen: ^2.0.1+1
   flutter_native_splash: ^2.3.8
   tmdb_api: ^2.1.5
 
@@ -68,18 +68,18 @@ flutter_launcher_icons:
   image_path: "assets/fonts/logo.jpg"
   #remove_alpha_ios: true;
 
-flutter_native_splash:
-  color: "#42a5f5"
-  branding_mode: bottom
+#flutter_native_splash:
+  #color: "#42a5f5"
+  #branding_mode: bottom
   #  branding_dark: assets/dart_dark.png
-  background_image: "assets/fonts/logo.jpg"
+  #background_image: "assets/fonts/logo.jpg"
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  #flutter_lints: ^3.0.1
+  flutter_lints: ^3.0.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
